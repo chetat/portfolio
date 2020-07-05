@@ -1,0 +1,41 @@
+
+#project-card {
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#project-card img {
+    max-width: 100%;
+    border-radius: 12px;
+}
+
+
+@media (min-width: 768px) { 
+    #project-card {
+        background-color: #ffffff;
+        padding: 1rem 2rem;
+        border-radius: 12px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        display: flex;
+    }
+    
+    #project-card img {
+        max-width: 30%;
+        border-radius: 12px;
+    }
+    
+    .project-content {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        margin: 0 2rem;
+    }
+    
+    .project-title {
+        font-size: 2rem;
+    }
+   
+ }
+ 

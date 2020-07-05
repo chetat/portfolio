@@ -1,9 +1,11 @@
 import React from 'react';
 import image from '../../Media/pic.png'
-import './styles.css'
+import './styles.css';
+
+
 const AboutCard = () => {
     return (
-        <div className="card">
+        <div id="about-card">
             <img src={image} alt="Yeku Wilfred" />
             <h3 className="card-item-title">Yeku Wilfred Chetat</h3>
             <h4>Full Stack Developer</h4>
