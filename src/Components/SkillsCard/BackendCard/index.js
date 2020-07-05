@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles.css';
 import {ReactComponent as Logo} from '../../../Media/img/flask.svg';
-import {ReactComponent as Python} from '../../../Media/img/python.svg';
 
 
 const BackendCard = () => {
