@@ -23,6 +23,7 @@
 .work-description {
     display: flex;
     flex-direction: column;
+    margin: 0 0 1rem 0;
 }
 
 .work-description p {
@@ -35,6 +36,6 @@
 }
 .divider {
     height: 5px;
-    background-color: brown;
+    background-color: #7c4dff;
     width: 100%;
 }

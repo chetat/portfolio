@@ -18,7 +18,7 @@ const ExperienceCard = () => {
                          <li>Fix any existing bug</li>
                          <li>Develop backend APIs</li>
                      </ul>
-                    Profile Link: <a href="https://www.upwork.com/fl/yekuwilfred">Upwork</a> 
+                    Profile Link: <b><a href="https://www.upwork.com/fl/yekuwilfred">Upwork</a> </b>
                 </div>
                 <hr className="divider" />
                 <div className="work-description">

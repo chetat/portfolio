@@ -11,6 +11,12 @@
     margin:2rem 0 1rem 0 !important;
 }
 
+.filter a {
+    text-decoration: none;
+    padding:0 0.5rem;
+    margin:1rem 0 1rem 0 !important;   
+
+}
 
 @media (min-width: 991.98px) { 
     .main {
@@ -48,10 +54,11 @@
         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         margin:2rem 0 1rem 0 !important;   
     }
+
     .filter a {
         text-decoration: none;
         padding:0 2rem;
-        margin:2rem 0 1rem 0 !important;   
+        margin:1.5rem 0 1rem 0 !important;   
 
     }
     #project-card:first-child{
@@ -60,6 +67,48 @@
  }
 
  @media (min-width: 768px) and (max-width: 991.98px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 2%;
+    }
+  
+    .section-1{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+    .section-2{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .skills-section{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .blog-section{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        gap: 2%;
+    }
+    .filter {
+        background-color: #ffffff;
+        padding:0 2rem;
+        border-radius: 12px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        margin:2rem 0 1rem 0 !important;   
+    }
 
+    .filter a {
+        text-decoration: none;
+        padding:0 2rem;
+        margin:1.5rem 0 1rem 0 !important;   
+
+    }
+    #project-card:first-child{
+        margin: 0;
+    }
  }
  

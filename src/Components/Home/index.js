@@ -9,31 +9,34 @@ import Sectiontitle from '../SectionTitleCard';
 import image1 from '../../Media/img/0.jpg';
 import image2 from '../../Media/img/1.jpg';
 import image3 from '../../Media/img/2.jpg';
+import Celery from '../../Media/img/celery.png';
+
 
 import './styles.css';
 import DevOps from '../SkillsCard/DevOps';
+import Hobbies from '../Hobbies';
 
 const articles = [
     {
-        title: "How to setup",
+        title: "Setup Social Authentication with Python",
         excerp: "I am working on this article. It will be available Soon. Thanks for Checking",
         image: image1
     },
     {
-        title: "How to setup",
+        title: "Deploying a Flask App on Cpanel",
         excerp: "I am working on this article. It will be available Soon. Thanks for Checking",
         image: image2
     },
     {
-        title: "How to setup",
+        title: "Containerize a Flask application with Docker",
         excerp: "I am working on this article. It will be available Soon. Thanks for Checking",
         image: image3,
         url: "/#"
     },
     {
-        title: "How to setup",
+        title: "Handle Background tasks with Flask and Celery",
         excerp: "I am working on this article. It will be available Soon. Thanks for Checking",
-        image: image1,
+        image: Celery,
         url: "/#"
     }
 ]
@@ -103,6 +106,7 @@ const Home = () => {
             <section className="section-1">
                 <AboutCard />
                 <ExperienceCard />
+                <Hobbies />
             </section>
             <section className="section-2">
                 <div className="skills-section">
@@ -111,10 +115,13 @@ const Home = () => {
                     <DevOps className="skill" />
                 </div>
                 <div className="filter">
-                    <h3>Projects ({projects.length})</h3>
+                    <h2>Projects ({projects.length})</h2>
                     <a href="/#" active={filter === 'all'} onClick={() => setFilter('all')}>All</a>
                     <a href="/#" active={filter === 'reactjs'} onClick={() => setFilter('reactjs')}>#ReactJs</a>
-                    <a href="/#" active={filter === 'flask'} onClick={() => setFilter('flask')}>#Flask</a>
+                    <a href="/#" active={filter === 'flask'} onClick={() => {
+
+                        return setFilter('flask')
+                    }}>#Flask</a>
                     <a href="/#" active={filter === 'bootstrap'} onClick={() => setFilter('bootstrap')}>#Bootstrap</a>
                 </div>
                 <div className="project-section">
