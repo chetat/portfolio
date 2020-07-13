@@ -9,8 +9,9 @@ const AboutCard = () => {
             <img src={image} alt="Yeku Wilfred" />
             <h3 className="card-item-title">Yeku Wilfred Chetat</h3>
             <h4>Full Stack Developer</h4>
-            <p><span></span>yekuwilfred@gmail.com</p>
-            <p><span></span> +237671357962 </p>
+            
+            <p><i class="material-icons lg-24">email</i>&nbsp;&nbsp;yekuwilfred@gmail.com</p>
+            <p><i class="material-icons lg-24">phone</i>&nbsp;&nbsp;+237671357962 </p>
 
             <p>I am a Freelance Full Stack Developer based in Douala,
                  Cameroon. I am passionate about Software Engineering,

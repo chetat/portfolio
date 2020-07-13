@@ -13,6 +13,10 @@ const ProjectsCard = (props) => {
                     <h2 className="hashTags">{hashTags}</h2>
                     <h2 className="project-title">{title}</h2>
                     <p>{description}</p>
+                    <div className="btn-section">
+                    <a class="read-btn" ml={3} href="/#" target="_blank">Demo</a>
+                    <a class="read-btn" href="/#" target="_blank">Code</a>
+                    </div>
                 </div>
             </div>
     )
