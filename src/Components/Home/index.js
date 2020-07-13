@@ -50,29 +50,27 @@ const portfolio = [
          location around the world. Users can View or get registered to an event in a choosen location\
        In this project I used Flask, SqlAlchemy and PostgreSQL to build the backend and REST APIs. For the Frontend,\
        I used ReactJs, React-Redux, and axios to consume API from the backend.",
-       url: "http://eveno.yekuwilfred.com/",
+       demo_url: "http://eveno.yekuwilfred.com/",
+       code_url: "https://github.com/chetat/eveno",
        image: image1,
        category: ["all","reactjs", "python","flask"]
     },
     {
         hashTags: "#Python #Flask #ReactJS",
         title: "Fyyur",
-        description: "Eveno is an event booking app the helps users organize events in different\
-         location around the world. Users can View or get registered to an event in a choosen location\
-       In this project I used Flask, SqlAlchemy and PostgreSQL to build the backend and REST APIs. For the Frontend,\
-       I used ReactJs, React-Redux, and axios to consume API from the backend.",
-       url: "http://eveno.yekuwilfred.com/",
+        description: "Fyyur is a Udacity Fullstack Nanodegree project which facilitates the discovery and bookings of shows between local performing artists\
+         and venues. This site lets you list new artists and venues, discover them, and list shows with artists as a venue owner.",
+       demo_url: "/#",
+       code_url: "https://github.com/chetat/Fyyur",
        image: image2,
        category: ["all","reactjs", "django","python"]
     },
     {
         hashTags: "#Python #Flask #ReactJS",
         title: "Bookmarker",
-        description: "Eveno is an event booking app the helps users organize events in different\
-         location around the world. Users can View or get registered to an event in a choosen location\
-       In this project I used Flask, SqlAlchemy and PostgreSQL to build the backend and REST APIs. For the Frontend,\
-       I used ReactJs, React-Redux, and axios to consume API from the backend.",
-       url: "http://eveno.yekuwilfred.com/",
+        description: "Bookmarker is an an app that enables users to bookmark JPEG Images from any site.",
+       demo_url: "/#",
+       code_url: "https://github.com/chetat/bookmarker",
        image: image1,
        category: ["all","javascript", "bootstrap"]
     }

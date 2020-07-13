@@ -4,7 +4,7 @@ import image1 from '../../Media/img/0.jpg';
 
 const ProjectsCard = (props) => {
 
-    const { title, image, description, url, hashTags } = props.project
+    const { title, image, description, demo_url, code_url, hashTags } = props.project
 
     return (
             <div id="project-card">
@@ -14,8 +14,8 @@ const ProjectsCard = (props) => {
                     <h2 className="project-title">{title}</h2>
                     <p>{description}</p>
                     <div className="btn-section">
-                    <a class="read-btn" ml={3} href="/#" target="_blank">Demo</a>
-                    <a class="read-btn" href="/#" target="_blank">Code</a>
+                    <a class="demo-btn" href={demo_url} target="_blank">Demo</a>
+                    <a class="code-btn" href={code_url} target="_blank">Code</a>
                     </div>
                 </div>
             </div>

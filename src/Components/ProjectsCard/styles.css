@@ -20,7 +20,41 @@
     margin: 5px 0;
 
 }
-
+.demo-btn {
+        width: 50%;
+        border: none;
+        background-color: #7c4dff;
+        color: #ffffff;
+        padding: 0.8rem 1.5rem;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 10rem 1rem 0 0;
+        border-color: #ffffff;
+        border-style: solid;
+        text-decoration: none;
+}
+.demo-btn:hover{
+    background-color: #ffffff;
+    color: #7c4dff;
+    border-color: #7c4dff;
+}
+.code-btn:hover{
+    background-color: #7c4dff;
+    color: #ffffff;
+}
+.code-btn {
+    width: 50%;
+    border: none;
+    background-color: #ffffff;
+    color:  #7c4dff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10px;
+    border-color:#7c4dff; ;
+    cursor: pointer;
+    margin: 10rem 1rem;
+    border-style: solid;
+    text-decoration: none;
+}
 @media (min-width: 768px) { 
     #project-card {
         background-color: #ffffff;
