@@ -1,0 +1,102 @@
+@use '../../assets/styles/variables';
+
+
+.text-section {
+    .intro-heading {
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 62px;
+        margin-top: 0.5em;
+        margin-bottom: 15px;
+        span {
+            color: variables.$secondary-color;
+        }
+    }
+    
+    .intro-text {
+        color: variables.$primary-color;
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin-top: 1em;
+        line-height: 30px;   
+    }
+
+    .social {
+        display: flex;
+        align-items: center;
+        margin-top: 1.2em;
+        span {
+            font-size: 2em;
+            color: variables.$primary-color-light;
+        }
+        .s-icon {
+            margin-left: 0.5em;
+        }
+    }
+
+    .cta-btns {
+        max-width: 50%;
+        display: flex;
+        justify-content: space-between;
+        color: #ffffff;
+        margin-top: 1.5em;
+        
+        .cta-btn {
+            padding: 2em 1.75em;
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            margin-right: 1.85em;
+            background-color: variables.$secondary-color;
+            transition: all 0.1s cubic-bezier(0.645, 0.645, 0.645, 1);
+            span {
+                color: #ffffff;
+                line-height: 24px;
+                font-weight: bold;
+            }
+            &:hover {
+                background-color: transparent;
+                border: 2px solid variables.$secondary-color;
+
+                .btn-icon, span {
+                    color: variables.$primary-color;
+                }
+
+            }
+        }
+        .btn-icon {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-right: 0.7em;
+            color: #ffffff;
+        }
+    }
+}
+
+.img-section {
+    position: relative;
+    .circle {
+        position: absolute;
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        bottom: 10%;
+        left: 10%;
+        border: 2px solid #8282824f;
+    }
+
+    .bullet-points{ 
+        position: absolute;
+        top: 70%;
+        left: 5%;
+    }
+
+    .hero-image img{
+        position: absolute;
+        top: 5%;
+        left: 12%;
+        z-index: 9999;
+        width: 100%;        
+    }
+   
+}

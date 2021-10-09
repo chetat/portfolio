@@ -3,7 +3,7 @@
 
 .header {
     background: variables.$faint-white;
-    margin-bottom: 2.65em;
+    margin-bottom: 1em;
     margin-top: 2.65em;
     .logo {
         font-weight: bold;
@@ -14,7 +14,6 @@
         border-bottom: none;
         background: variables.$faint-white;
         display: flex;
-        justify-content: space-between;
         .ant-menu-item {
             color: variables.$primary-color;
             font-size: 1rem;

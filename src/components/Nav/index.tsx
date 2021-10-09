@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Layout, Menu, Row, Col, Button } from "antd";
+import { Layout, Menu, Row, Col } from "antd";
 
 import './styles.scss'
 
@@ -19,10 +19,10 @@ const NavMenu = () => {
     return (
         <Header className="header">
             <Row>
-                <Col xxl={16} xl={5} lg={8} md={8} sm={24} xs={24}>
+                <Col xl={15} lg={8} md={8} sm={24} xs={24}>
                     <div className="logo">Arlene Rey</div>
                 </Col>
-                <Col xxl={8} xl={19} lg={16} md={16} sm={0} xs={0}>
+                <Col xl={9} lg={16} md={16} sm={0} xs={0}>
                     <div className="header-meta">
                         {menuMode === 'horizontal' ? <div id="menu">{menu}</div> : null}
                     </div>

@@ -1,8 +1,9 @@
-import { Layout, Menu } from "antd";
+import { Layout } from "antd";
 import Hero from "../../components/Hero";
 import NavMenu from "../../components/Nav";
-import Navbar from "../../components/Nav";
+
 import  './styles.scss'
+
 const { Content } = Layout;
 
 const Home = () => {
