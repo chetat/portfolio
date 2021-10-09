@@ -1,0 +1,9 @@
+@use 'assets/styles/variables';
+@import 'assets/styles/media-queries';
+
+
+body {
+    background-color: variables.$faint-white;
+    font-family: variables.$main-font-family;
+    font-size: 16px;
+}

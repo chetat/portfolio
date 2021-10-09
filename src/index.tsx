@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import  { Router,  } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
-import './index.css';
+import './index.scss';
 import Routes from './routes';
 
 const history = createBrowserHistory();

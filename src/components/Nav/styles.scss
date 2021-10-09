@@ -1,0 +1,47 @@
+@use '../../assets/styles/variables';
+
+
+.header {
+    background: variables.$faint-white;
+    margin-bottom: 2.65em;
+    margin-top: 2.65em;
+    .logo {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .menu {
+        border-bottom: none;
+        background: variables.$faint-white;
+        display: flex;
+        justify-content: space-between;
+        .ant-menu-item {
+            color: variables.$primary-color;
+            font-size: 1rem;
+            font-weight: 500;
+            &:hover {
+                color: variables.$secondary-color;
+            }
+            &::after {
+                content: none !important;
+            }
+        }
+        .ant-menu-item-selected {
+            color:  variables.$secondary-color;
+            font-size: 1rem;
+            font-weight: 700;
+            &:hover {
+                color:  variables.$secondary-color;
+            }
+            &::after {
+                content: none !important;
+            }
+        }
+    }
+}
+
+  
+  
+  .site-layout-background {
+    background: #fff;
+  }
