@@ -41,29 +41,7 @@
         color: #ffffff;
         margin-top: 1.5em;
         
-        .cta-btn {
-            padding: 2em 1.75em;
-            display: flex;
-            align-items: center;
-            border-radius: 10px;
-            margin-right: 1.85em;
-            background-color: variables.$secondary-color;
-            transition: all 0.1s cubic-bezier(0.645, 0.645, 0.645, 1);
-            span {
-                color: #ffffff;
-                line-height: 24px;
-                font-weight: bold;
-            }
-            &:hover {
-                background-color: transparent;
-                border: 2px solid variables.$secondary-color;
-
-                .btn-icon, span {
-                    color: variables.$primary-color;
-                }
-
-            }
-        }
+        
         .btn-icon {
             font-size: 1.5em;
             font-weight: bold;
@@ -96,7 +74,7 @@
         top: 5%;
         left: 12%;
         z-index: 9999;
-        width: 100%;        
+        max-width: 100%;        
     }
    
 }

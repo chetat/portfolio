@@ -1,0 +1,26 @@
+@use '../../assets/styles/variables';
+
+.intro {
+    margin: 8rem 0;
+    padding: 4rem;
+    background: #E9E9E9;
+    border-radius: 45px;
+
+    .intro-rating {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .description {
+        h1 {
+            color: variables.$primary-color; 
+            font-weight: 600; 
+            font-size: 3rem;
+            margin-top: 2rem;
+        }
+        p {
+            font-size: 1.5rem;
+            line-height: 45px;
+        }
+    }
+}
